@@ -23,3 +23,16 @@ Short link API powered by ExpressJS and Typescript
 ```sh
 npx knex migrate:make --migrations-directory ./src/migrations -x ts nama-migration-baru
 ```
+## Menjalankan migration
+* Build Project
+    ```sh
+    npm run build
+    ```
+* cd ke dist/
+    ```sh
+    cd ./dist
+    ```
+* Jalankan migration
+    ```sh
+    npx knex migrate:latest
+    ```
