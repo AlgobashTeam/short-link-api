@@ -1,0 +1,8 @@
+FROM mariadb:10.3
+
+ENV MYSQL_ROOT_PASSWORD="omgItsRootPassword"
+ENV MYSQL_DATABASE="ShortLinkDB"
+ENV MYSQL_USER="ThisIsShortLinkUser"
+ENV MYSQL_PASSWORD="ThisIsPassword123"
+
+EXPOSE 3306
